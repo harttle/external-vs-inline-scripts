@@ -1,0 +1,24 @@
+{
+  "name": "external-vs-inline-scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "nocache": "http-server -c-1 -p 8810 -o",
+    "cached": "http-server -c3600 -p 8820 -o",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harttle/external-vs-inline-scripts.git"
+  },
+  "author": "harttle <yangjvn@126.com>",
+  "license": "GNU v2",
+  "bugs": {
+    "url": "https://github.com/harttle/external-vs-inline-scripts/issues"
+  },
+  "homepage": "https://github.com/harttle/external-vs-inline-scripts#readme",
+  "dependencies": {
+    "http-server": "^0.10.0"
+  }
+}
