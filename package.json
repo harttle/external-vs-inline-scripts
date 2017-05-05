@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "nocache": "http-server -c-1 -p 8810 -o",
-    "cached": "http-server -c3600 -p 8820 -o",
+    "start": "http-server -c3600 -p 8810 -o",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
